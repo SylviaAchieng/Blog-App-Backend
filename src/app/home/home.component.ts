@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  message:string = 'hello, Angular';
+
+  changeMessage(){
+    this.message = 'we are turnkey';
+  }
 
 }
