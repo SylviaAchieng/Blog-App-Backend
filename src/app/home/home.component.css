@@ -6,4 +6,78 @@
     border-radius: 2px;
 
 }
+.na{
+    background-color: #F5F6F8; 
+    color: #000000; 
+    text-decoration: none; 
+    margin-left: 1000px; 
+    margin-top: 12px;
+}
+.nav-li{
+    color: #F5F6F8; 
+    font-weight: 700; 
+    font-family: Roboto; 
+    font-size: 18px; 
+    line-height: 22.4px; 
+    margin-left: 40px;
+    text-decoration: none;
+    margin-top: 12px;
+}
 
+.nav-link{
+    width: 17px;
+    height: 17px;
+    top: 24px;
+    left: 1096px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+
+}
+/* Style for the nav items */
+.navbar-nav .nav-item {
+  margin-right: 20px; /* Adjust spacing between items */
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
+.navbar-nav .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 10px 20px; /* Adjust padding for dropdown items */
+}
+
+.bi-search, .bi-bell, .bi-person {
+  font-size: 1.5rem; /* Adjust icon size if needed */
+}
+
+/* Ensure proper spacing and alignment */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  #sidebar {
+    min-height: 100vh; /* Full height */
+    background-color: white; /* White background */
+    border-right: 1px solid #dee2e6; /* Optional: add a border to the right */
+  }
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
